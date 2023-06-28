@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+  text-align: center;
+}
+
+.container {
+  margin-top: 10px;
+  display: table;
+  height: 100%;
+}
+
+.center-row {
+  min-width: 960px;
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.logo {
+  font-family: "Josefin Slab", serif;
+  color: #111;
+  font-size: 10em;
+  margin-bottom: -0.3em;
+}
+
+#articles {
+  height: 100%;
+  text-align: left;
+  padding-top: 10em;
+  margin-left: 15em;
+}
+
+.section-footer {
+  position: relative;
+  bottom: 3em;
+}
+
+.section-footer p {
+  padding-top: 1em;
+  font-size: 0.8em;
+}
+
+.links {
+  font-size: 2em;
+  position: absolute;
+  margin-right: 1em;
+  margin-top: .3em;
+  right: 0;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .links {
+    font-size: 4em;
+  }
+}
+
+.links a {
+  color: #444;
+  text-decoration: none;
+}
+
+.links a:visited {
+  color: #555;
+}
+
+.links a:hover {
+  color: #A53C05;
+}
+
+.bullets {
+  font-family: "Josefin Slab", serif;
+}
+
